@@ -1,5 +1,5 @@
 # Circuitos Digitais (INF01058)
-Repositório da cadeira de Circuitos Digitais (INF01058) do aluno William Schmidt Soares (00303082), contendo os trabalhos desenvolvidos durante
+Repositório da cadeira de Circuitos Digitais (INF01058) do aluno William Schmidt Soares (00303082), contendo os projetos desenvolvidos durante
 o semestre letivo de 2023/2 da faculdade de Engenharia da Computação da Universidade Federal do Rio Grande do Sul (UFRGS).
 
 ## Requisitos para utilizar o repositório
