@@ -67,3 +67,6 @@ incremental_db/
 db/
 _output_files/
 PLLJ_PLLSPE_INFO.txt
+
+# ignore docs folder of projects
+*/docs
