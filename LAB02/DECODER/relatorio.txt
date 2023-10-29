@@ -3,5 +3,8 @@ Número de Pinos:
 16 pinos de saída
 20 pinos totais
 
+Elementos lógicos:
+16 elementos lógicos
+
 Atraso Crítico:
 10.510ns (FALL E[3] / RISE S[0])
