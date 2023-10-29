@@ -25,12 +25,20 @@ Cada pasta do repositório contém um projeto diferente contendo os arquivos do 
 │   ├── LAB01.qpf
 │   ├── LAB01.qsf
 ├── LAB02
-│   ├── *.bdf
-│   ├── *.bsf
-│   ├── *.vwf
-│   ├── *.png
-│   ├── LAB02.qpf
-│   ├── LAB02.qsf
+│   ├── DECODER
+│   │   ├── *.bdf
+│   │   ├── *.bsf
+│   │   ├── *.vwf
+│   │   ├── *.png
+│   │   ├── DECODER.qpf
+│   │   ├── DECODER.qsf
+│   ├── MUX
+│   │   ├── *.bdf
+│   │   ├── *.bsf
+│   │   ├── *.vwf
+│   │   ├── *.png
+│   │   ├── MUX.qpf
+│   │   ├── MUX.qsf
 ├── TRABALHO_FINAL
 │   ├── *.bdf
 │   ├── *.bsf
