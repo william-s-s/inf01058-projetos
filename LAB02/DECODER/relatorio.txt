@@ -1,0 +1,7 @@
+Número de Pinos:
+4 pinos de entrada
+16 pinos de saída
+20 pinos totais
+
+Atraso Crítico:
+10.510ns (FALL E[3] / RISE S[0])
