@@ -14,24 +14,24 @@
 
 # Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
 # File: D:\Faculdade\Circuitos_Digitais\inf01058-projetos\LAB03\ULA\ULA.csv
-# Generated on: Thu Nov 09 18:52:10 2023
+# Generated on: Wed Nov 15 23:07:16 2023
 
 # Note: The column header names should not be changed if you wish to import this .csv file into the Quartus II software.
 
-To,Direction,Location,I/O Bank,VREF Group,I/O Standard,Reserved,Current Strength,Slew Rate,Differential Pair
-A[3],Input,PIN_E3,1,B1_N0,,,,,
-A[2],Input,PIN_H7,1,B1_N0,,,,,
-A[1],Input,PIN_J7,1,B1_N1,,,,,
-A[0],Input,PIN_G5,1,B1_N0,,,,,
-B[3],Input,PIN_G4,1,B1_N0,,,,,
-B[2],Input,PIN_H6,1,B1_N0,,,,,
-B[1],Input,PIN_H5,1,B1_N0,,,,,
-B[0],Input,PIN_J6,1,B1_N0,,,,,
-N,Output,PIN_E1,1,B1_N0,,,,,
-OP_SEL[1],Input,PIN_D2,1,B1_N0,,,,,
-OP_SEL[0],Input,PIN_E4,1,B1_N0,,,,,
-S[3],Output,PIN_J1,1,B1_N1,,,,,
-S[2],Output,PIN_J2,1,B1_N1,,,,,
-S[1],Output,PIN_J3,1,B1_N1,,,,,
-S[0],Output,PIN_H1,1,B1_N1,,,,,
-Z,Output,PIN_C1,1,B1_N0,,,,,
+To,Direction,Location,I/O Bank,VREF Group,Fitter Location,I/O Standard,Reserved,Current Strength,Slew Rate,Differential Pair
+A[3],Input,PIN_E3,1,B1_N0,PIN_E3,,,,,
+A[2],Input,PIN_H7,1,B1_N0,PIN_H7,,,,,
+A[1],Input,PIN_J7,1,B1_N1,PIN_J7,,,,,
+A[0],Input,PIN_G5,1,B1_N0,PIN_G5,,,,,
+B[3],Input,PIN_G4,1,B1_N0,PIN_G4,,,,,
+B[2],Input,PIN_H6,1,B1_N0,PIN_H6,,,,,
+B[1],Input,PIN_H5,1,B1_N0,PIN_H5,,,,,
+B[0],Input,PIN_J6,1,B1_N0,PIN_J6,,,,,
+N,Output,PIN_E1,1,B1_N0,PIN_E1,,,,,
+OP_SEL[1],Input,PIN_D2,1,B1_N0,PIN_D2,,,,,
+OP_SEL[0],Input,PIN_E4,1,B1_N0,PIN_E4,,,,,
+S[3],Output,PIN_H1,1,B1_N1,PIN_H1,,,,,
+S[2],Output,PIN_J3,1,B1_N1,PIN_J3,,,,,
+S[1],Output,PIN_J2,1,B1_N1,PIN_J2,,,,,
+S[0],Output,PIN_J1,1,B1_N1,PIN_J1,,,,,
+Z,Output,PIN_C1,1,B1_N0,PIN_C1,,,,,
