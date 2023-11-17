@@ -1,0 +1,11 @@
+Número de Pinos:
+8 pinos de entrada (A[3..0] e B[3..0])
+9 pinos de saída (S[6..0], Z e N)
+2 pinos de seleção (OP_SEL[1..0])
+19 pinos totais
+
+Elementos lógicos:
+18 elementos lógicos
+
+Atraso Crítico:
+10.622ns (FALL A[1] / RISE S[3])
