@@ -413,16 +413,8 @@ applicable agreement for further details.
 	(pt 600 -312)
 )
 (connector
-	(pt 480 -296)
-	(pt 600 -296)
-)
-(connector
 	(pt 400 -280)
 	(pt 600 -280)
-)
-(connector
-	(pt 280 -264)
-	(pt 600 -264)
 )
 (connector
 	(pt 600 -216)
@@ -447,34 +439,6 @@ applicable agreement for further details.
 (connector
 	(pt 600 -88)
 	(pt 400 -88)
-)
-(connector
-	(pt 600 -104)
-	(pt 440 -104)
-)
-(connector
-	(pt 600 -120)
-	(pt 520 -120)
-)
-(connector
-	(pt 600 24)
-	(pt 320 24)
-)
-(connector
-	(pt 320 -352)
-	(pt 320 24)
-)
-(connector
-	(pt 600 8)
-	(pt 360 8)
-)
-(connector
-	(pt 600 -8)
-	(pt 480 -8)
-)
-(connector
-	(pt 600 -24)
-	(pt 560 -24)
 )
 (connector
 	(pt 736 -168)
@@ -535,53 +499,17 @@ applicable agreement for further details.
 	(pt 280 -416)
 )
 (connector
-	(pt 280 -416)
-	(pt 280 -264)
-)
-(connector
-	(pt 280 -264)
-	(pt 280 -168)
-)
-(connector
-	(pt 280 -168)
-	(pt 280 -72)
-)
-(connector
 	(pt 400 -352)
 	(pt 400 -280)
-)
-(connector
-	(pt 400 -280)
-	(pt 400 -88)
-)
-(connector
-	(pt 480 -352)
-	(pt 480 -296)
-)
-(connector
-	(pt 480 -296)
-	(pt 480 -200)
-)
-(connector
-	(pt 480 -200)
-	(pt 480 -8)
 )
 (connector
 	(pt 560 -352)
 	(pt 560 -312)
 )
 (connector
-	(pt 560 -312)
-	(pt 560 -24)
-)
-(connector
 	(text "BCD_in[2]" (rect 424 -475 436 -425)(font "Arial" )(vertical))
 	(pt 440 -448)
 	(pt 440 -416)
-)
-(connector
-	(pt 440 -416)
-	(pt 440 -104)
 )
 (connector
 	(text "BCD_in[3]" (rect 504 -475 516 -425)(font "Arial" )(vertical))
@@ -593,10 +521,6 @@ applicable agreement for further details.
 	(pt 520 -216)
 )
 (connector
-	(pt 520 -216)
-	(pt 520 -120)
-)
-(connector
 	(text "BCD_in[1]" (rect 344 -475 356 -425)(font "Arial" )(vertical))
 	(pt 360 -448)
 	(pt 360 -416)
@@ -604,10 +528,6 @@ applicable agreement for further details.
 (connector
 	(pt 360 -416)
 	(pt 360 -184)
-)
-(connector
-	(pt 360 -184)
-	(pt 360 8)
 )
 (connector
 	(pt 400 -416)
@@ -625,15 +545,95 @@ applicable agreement for further details.
 	(pt 320 -416)
 	(pt 320 -400)
 )
+(connector
+	(pt 480 -352)
+	(pt 480 -200)
+)
+(connector
+	(pt 600 -296)
+	(pt 440 -296)
+)
+(connector
+	(pt 440 -416)
+	(pt 440 -296)
+)
+(connector
+	(pt 600 -104)
+	(pt 480 -104)
+)
+(connector
+	(pt 600 -120)
+	(pt 560 -120)
+)
+(connector
+	(pt 560 -312)
+	(pt 560 -120)
+)
+(connector
+	(pt 600 -24)
+	(pt 520 -24)
+)
+(connector
+	(pt 520 -216)
+	(pt 520 -24)
+)
+(connector
+	(pt 480 -200)
+	(pt 480 -104)
+)
+(connector
+	(pt 600 -8)
+	(pt 440 -8)
+)
+(connector
+	(pt 440 -296)
+	(pt 440 -8)
+)
+(connector
+	(pt 280 -416)
+	(pt 280 -168)
+)
+(connector
+	(pt 600 -264)
+	(pt 320 -264)
+)
+(connector
+	(pt 320 -352)
+	(pt 320 -264)
+)
+(connector
+	(pt 280 24)
+	(pt 600 24)
+)
+(connector
+	(pt 280 -168)
+	(pt 280 -72)
+)
+(connector
+	(pt 280 -72)
+	(pt 280 24)
+)
+(connector
+	(pt 400 8)
+	(pt 600 8)
+)
+(connector
+	(pt 400 -280)
+	(pt 400 -88)
+)
+(connector
+	(pt 400 -88)
+	(pt 400 8)
+)
 (junction (pt 280 -416))
-(junction (pt 280 -264))
 (junction (pt 280 -168))
 (junction (pt 400 -280))
 (junction (pt 440 -416))
 (junction (pt 520 -416))
 (junction (pt 520 -216))
 (junction (pt 360 -416))
-(junction (pt 360 -184))
-(junction (pt 480 -296))
 (junction (pt 480 -200))
 (junction (pt 560 -312))
+(junction (pt 440 -296))
+(junction (pt 280 -72))
+(junction (pt 400 -88))
