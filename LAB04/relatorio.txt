@@ -8,4 +8,4 @@ Elementos lógicos:
 18 elementos lógicos
 
 Atraso Crítico:
-10.622ns (FALL A[1] / RISE S[3])
+10.623ns (FALL A[1] / RISE S[3])
