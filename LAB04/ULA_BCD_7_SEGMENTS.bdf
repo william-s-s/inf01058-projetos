@@ -174,7 +174,7 @@ applicable agreement for further details.
 (symbol
 	(rect 624 192 760 352)
 	(text "BCD_7_SEGMENTS_DECODER" (rect 5 0 179 14)(font "Arial" (font_size 8)))
-	(text "inst6" (rect 8 144 31 156)(font "Arial" ))
+	(text "inst4" (rect 8 144 31 156)(font "Arial" ))
 	(port
 		(pt 0 32)
 		(input)
