@@ -148,50 +148,6 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 568 264 704 360)
-	(text "A" (rect 5 0 14 14)(font "Arial" (font_size 8)))
-	(text "inst" (rect 8 80 25 92)(font "Arial" ))
-	(port
-		(pt 0 32)
-		(input)
-		(text "BCD_in[3..0]" (rect 0 0 69 14)(font "Arial" (font_size 8)))
-		(text "BCD_in[3..0]" (rect 21 27 90 41)(font "Arial" (font_size 8)))
-		(line (pt 0 32)(pt 16 32)(line_width 3))
-	)
-	(port
-		(pt 136 32)
-		(output)
-		(text "A" (rect 0 0 9 14)(font "Arial" (font_size 8)))
-		(text "A" (rect 106 27 115 41)(font "Arial" (font_size 8)))
-		(line (pt 136 32)(pt 120 32))
-	)
-	(drawing
-		(rectangle (rect 16 16 120 80))
-	)
-)
-(symbol
-	(rect 568 376 696 472)
-	(text "B" (rect 5 0 13 14)(font "Arial" (font_size 8)))
-	(text "inst8" (rect 8 80 31 92)(font "Arial" ))
-	(port
-		(pt 0 32)
-		(input)
-		(text "BCD_in[3..0]" (rect 0 0 69 14)(font "Arial" (font_size 8)))
-		(text "BCD_in[3..0]" (rect 21 27 90 41)(font "Arial" (font_size 8)))
-		(line (pt 0 32)(pt 16 32)(line_width 3))
-	)
-	(port
-		(pt 128 32)
-		(output)
-		(text "B" (rect 0 0 8 14)(font "Arial" (font_size 8)))
-		(text "B" (rect 99 27 107 41)(font "Arial" (font_size 8)))
-		(line (pt 128 32)(pt 112 32))
-	)
-	(drawing
-		(rectangle (rect 16 16 112 80))
-	)
-)
-(symbol
 	(rect 568 488 696 584)
 	(text "C" (rect 5 0 13 14)(font "Arial" (font_size 8)))
 	(text "inst9" (rect 8 80 31 92)(font "Arial" ))
@@ -299,6 +255,50 @@ applicable agreement for further details.
 	)
 	(drawing
 		(rectangle (rect 16 16 120 80))
+	)
+)
+(symbol
+	(rect 568 264 704 360)
+	(text "A" (rect 5 0 14 14)(font "Arial" (font_size 8)))
+	(text "inst1" (rect 8 80 31 92)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "BCD_in[3..0]" (rect 0 0 69 14)(font "Arial" (font_size 8)))
+		(text "BCD_in[3..0]" (rect 21 27 90 41)(font "Arial" (font_size 8)))
+		(line (pt 0 32)(pt 16 32)(line_width 3))
+	)
+	(port
+		(pt 136 32)
+		(output)
+		(text "A" (rect 0 0 9 14)(font "Arial" (font_size 8)))
+		(text "A" (rect 106 27 115 41)(font "Arial" (font_size 8)))
+		(line (pt 136 32)(pt 120 32))
+	)
+	(drawing
+		(rectangle (rect 16 16 120 80))
+	)
+)
+(symbol
+	(rect 568 376 696 472)
+	(text "B" (rect 5 0 13 14)(font "Arial" (font_size 8)))
+	(text "inst" (rect 8 80 25 92)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "BCD_in[3..0]" (rect 0 0 69 14)(font "Arial" (font_size 8)))
+		(text "BCD_in[3..0]" (rect 21 27 90 41)(font "Arial" (font_size 8)))
+		(line (pt 0 32)(pt 16 32)(line_width 3))
+	)
+	(port
+		(pt 128 32)
+		(output)
+		(text "B" (rect 0 0 8 14)(font "Arial" (font_size 8)))
+		(text "B" (rect 99 27 107 41)(font "Arial" (font_size 8)))
+		(line (pt 128 32)(pt 112 32))
+	)
+	(drawing
+		(rectangle (rect 16 16 112 80))
 	)
 )
 (connector
