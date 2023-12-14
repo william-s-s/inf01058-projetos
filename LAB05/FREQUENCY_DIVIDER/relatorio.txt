@@ -1,0 +1,13 @@
+Número de Pinos:
+2 pinos de entrada (CLK e CLEAR)
+1 pinos de saída (CLK_DIV_2_POW_24)
+3 pinos totais
+
+Elementos lógicos:
+47 elementos lógicos
+24 funções combinacionais
+24 registradores lógicos dedicados
+
+Atraso Crítico (Clock to Output):
+4.656ns RISE CLK
+4.692ns FALL CLK
