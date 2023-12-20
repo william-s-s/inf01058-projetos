@@ -63,8 +63,35 @@ set_global_assignment -name BDF_FILE BCD_7_SEGMENTS_DECODER/A/A.bdf
 set_global_assignment -name BDF_FILE BCD_7_SEGMENTS_DECODER/BCD_7_SEGMENTS_DECODER.bdf
 set_global_assignment -name BDF_FILE SYNCHRONOUS_COUNTER/SYNCHRONOUS_COUNTER.bdf
 set_global_assignment -name BDF_FILE SYNC_COUNTER_BCD.bdf
+set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "2.5 V"
+set_location_assignment PIN_F1 -to CLEAR_COUNTER
+set_location_assignment PIN_H2 -to CLEAR_CLK
+set_location_assignment PIN_E11 -to BCD_OUT[0]
+set_location_assignment PIN_F11 -to BCD_OUT[1]
+set_location_assignment PIN_H12 -to BCD_OUT[2]
+set_location_assignment PIN_H13 -to BCD_OUT[3]
+set_location_assignment PIN_G12 -to BCD_OUT[4]
+set_location_assignment PIN_F12 -to BCD_OUT[5]
+set_location_assignment PIN_F13 -to BCD_OUT[6]
+set_location_assignment PIN_J6 -to D[0]
+set_location_assignment PIN_H5 -to D[1]
+set_location_assignment PIN_H6 -to D[2]
+set_location_assignment PIN_G4 -to D[3]
+set_location_assignment PIN_E4 -to OP_SEL[0]
+set_location_assignment PIN_D2 -to OP_SEL[1]
 set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_location_assignment PIN_G21 -to CLK
+set_location_assignment PIN_G5 -to D[4]
+set_location_assignment PIN_J7 -to D[5]
+set_location_assignment PIN_H7 -to D[6]
+set_location_assignment PIN_E3 -to D[7]
+set_location_assignment PIN_A13 -to BCD_OUT[7]
+set_location_assignment PIN_B13 -to BCD_OUT[8]
+set_location_assignment PIN_C13 -to BCD_OUT[9]
+set_location_assignment PIN_A14 -to BCD_OUT[10]
+set_location_assignment PIN_B14 -to BCD_OUT[11]
+set_location_assignment PIN_E14 -to BCD_OUT[12]
+set_location_assignment PIN_A15 -to BCD_OUT[13]
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
-set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "2.5 V"
