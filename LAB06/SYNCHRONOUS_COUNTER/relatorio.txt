@@ -1,0 +1,14 @@
+Número de Pinos:
+13 pinos de entrada (D[7..0], OP_SEL[1..0], CLK, CLEAR_COUNTER, CLEAR_CLK)
+14 pinos de saída (BCD_OUT[13..0])
+27 pinos totais
+
+Elementos lógicos:
+96 elementos lógicos
+72 funções combinacionais
+32 registradores lógicos dedicados
+
+Atraso Crítico:
+SETUP: 3.402ns FALL OP_SEL
+CLOCK TO OUTPUT: 8.120ns BCD_OUT[12] FALL
+TCPK: 11,522ns SETUP + CLOCK TO OUTPUT
