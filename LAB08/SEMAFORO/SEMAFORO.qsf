@@ -51,8 +51,26 @@ set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim-Altera (VHDL)"
 set_global_assignment -name EDA_OUTPUT_DATA_FORMAT VHDL -section_id eda_simulation
 set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
 set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
+set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "2.5 V"
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_location_assignment PIN_B1 -to GREEN
+set_location_assignment PIN_B2 -to YELLOW
+set_location_assignment PIN_C2 -to RED
+set_location_assignment PIN_G21 -to CLK
+set_location_assignment PIN_H2 -to CLEAR
+set_global_assignment -name BDF_FILE AUXILIARY_CIRCUITS/ONE_BIT_REGISTER/ONE_BIT_REGISTER.bdf
+set_global_assignment -name BDF_FILE TWO_SEC_TIMER/TWO_SEC_TIMER.bdf
+set_global_assignment -name BDF_FILE AUXILIARY_CIRCUITS/MUX_21/MUX_21.bdf
 set_global_assignment -name BDF_FILE FREQUENCY_DIVIDER/FREQUENCY_DIVIDER.bdf
 set_global_assignment -name BDF_FILE OUTPUT_LOGIC/OUTPUT_LOGIC.bdf
 set_global_assignment -name BDF_FILE INPUT_LOGIC/INPUT_LOGIC.bdf
 set_global_assignment -name BDF_FILE STATE_REGISTER/STATE_REGISTER.bdf
 set_global_assignment -name BDF_FILE SEMAFORO.bdf
+set_global_assignment -name BDF_FILE EIGHT_SEC_TIMER/EIGHT_SEC_TIMER.bdf
+set_global_assignment -name BDF_FILE TIMER_CONTROLLER/TIMER_CONTROLLER.bdf
+set_location_assignment PIN_J1 -to T_OUT[0]
+set_location_assignment PIN_J2 -to T_OUT[1]
+set_location_assignment PIN_J3 -to T_OUT[2]
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
