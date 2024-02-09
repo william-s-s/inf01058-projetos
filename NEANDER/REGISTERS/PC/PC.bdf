@@ -53,9 +53,9 @@ applicable agreement for further details.
 )
 (pin
 	(input)
-	(rect 96 40 264 56)
+	(rect 96 8 264 24)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "OP_SEL" (rect 5 0 46 12)(font "Arial" ))
+	(text "INPUT[7..0]" (rect 5 0 64 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -69,9 +69,9 @@ applicable agreement for further details.
 )
 (pin
 	(input)
-	(rect 96 8 264 24)
+	(rect 96 40 264 56)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "INPUT[7..0]" (rect 5 0 65 12)(font "Arial" ))
+	(text "OP_SEL[1..0]" (rect 5 0 73 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -1565,11 +1565,6 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
-	(pt 1160 376)
-	(pt 1024 376)
-	(bus)
-)
-(connector
 	(pt 632 352)
 	(pt 608 352)
 	(bus)
@@ -1580,11 +1575,6 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
-	(pt 608 376)
-	(pt 472 376)
-	(bus)
-)
-(connector
 	(pt 216 352)
 	(pt 192 352)
 	(bus)
@@ -1592,11 +1582,6 @@ applicable agreement for further details.
 (connector
 	(pt 192 352)
 	(pt 192 368)
-	(bus)
-)
-(connector
-	(pt 192 368)
-	(pt 72 368)
 	(bus)
 )
 (connector
@@ -1824,11 +1809,6 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
-	(pt 1712 376)
-	(pt 1576 376)
-	(bus)
-)
-(connector
 	(pt 1736 288)
 	(pt 1688 288)
 )
@@ -1939,11 +1919,6 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
-	(pt 2264 376)
-	(pt 2128 376)
-	(bus)
-)
-(connector
 	(pt 2288 288)
 	(pt 2240 288)
 )
@@ -2043,11 +2018,6 @@ applicable agreement for further details.
 (connector
 	(pt 2816 352)
 	(pt 2816 376)
-	(bus)
-)
-(connector
-	(pt 2816 376)
-	(pt 2680 376)
 	(bus)
 )
 (connector
@@ -2153,11 +2123,6 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
-	(pt 3368 376)
-	(pt 3232 376)
-	(bus)
-)
-(connector
 	(pt 3392 288)
 	(pt 3344 288)
 )
@@ -2241,11 +2206,6 @@ applicable agreement for further details.
 (connector
 	(pt 3896 352)
 	(pt 3896 376)
-	(bus)
-)
-(connector
-	(pt 3896 376)
-	(pt 3760 376)
 	(bus)
 )
 (connector
@@ -2448,6 +2408,54 @@ applicable agreement for further details.
 	(text "OUTPUT[7]" (rect 4136 448 4148 504)(font "Arial" )(vertical))
 	(pt 4152 288)
 	(pt 4152 504)
+)
+(connector
+	(text "OP_SEL[1..0]" (rect 70 352 137 364)(font "Arial" ))
+	(pt 192 368)
+	(pt 72 368)
+	(bus)
+)
+(connector
+	(text "OP_SEL[1..0]" (rect 467 360 534 372)(font "Arial" ))
+	(pt 608 376)
+	(pt 472 376)
+	(bus)
+)
+(connector
+	(text "OP_SEL[1..0]" (rect 1023 360 1090 372)(font "Arial" ))
+	(pt 1160 376)
+	(pt 1024 376)
+	(bus)
+)
+(connector
+	(text "OP_SEL[1..0]" (rect 1574 360 1641 372)(font "Arial" ))
+	(pt 1712 376)
+	(pt 1576 376)
+	(bus)
+)
+(connector
+	(text "OP_SEL[1..0]" (rect 2128 360 2195 372)(font "Arial" ))
+	(pt 2264 376)
+	(pt 2128 376)
+	(bus)
+)
+(connector
+	(text "OP_SEL[1..0]" (rect 2678 360 2745 372)(font "Arial" ))
+	(pt 2816 376)
+	(pt 2680 376)
+	(bus)
+)
+(connector
+	(text "OP_SEL[1..0]" (rect 3229 360 3296 372)(font "Arial" ))
+	(pt 3368 376)
+	(pt 3232 376)
+	(bus)
+)
+(connector
+	(text "OP_SEL[1..0]" (rect 3755 360 3822 372)(font "Arial" ))
+	(pt 3896 376)
+	(pt 3760 376)
+	(bus)
 )
 (junction (pt 336 432))
 (junction (pt 752 432))

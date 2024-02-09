@@ -23,7 +23,7 @@ applicable agreement for further details.
 	(input)
 	(rect 160 40 336 56)
 	(text "INPUT" (rect 133 0 161 10)(font "Arial" (font_size 6)))
-	(text "MEMORY[7..0]" (rect 5 0 80 12)(font "Arial" ))
+	(text "MEMORY[7..0]" (rect 5 0 79 12)(font "Arial" ))
 	(pt 176 8)
 	(drawing
 		(line (pt 92 12)(pt 117 12))
@@ -39,7 +39,7 @@ applicable agreement for further details.
 	(input)
 	(rect 168 72 336 88)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "AC[7..0]" (rect 5 0 47 12)(font "Arial" ))
+	(text "AC[7..0]" (rect 5 0 46 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -55,7 +55,7 @@ applicable agreement for further details.
 	(input)
 	(rect 168 104 336 120)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "cargaRDM" (rect 5 0 57 12)(font "Arial" ))
+	(text "cargaRDM" (rect 5 0 56 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -71,7 +71,7 @@ applicable agreement for further details.
 	(input)
 	(rect 168 136 336 152)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "Read" (rect 5 0 31 12)(font "Arial" ))
+	(text "Read" (rect 5 0 30 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))

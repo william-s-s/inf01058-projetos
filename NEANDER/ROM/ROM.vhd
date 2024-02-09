@@ -31,7 +31,7 @@ BEGIN
 					x"84" when x"0E",     -- 0x84
 					x"F0" when x"0F",     -- HLT
 					-- DADOS  --------------
-					x"0A" when x"80",	   -- 0x0A = 10
+					x"0B" when x"80",	   -- 0x0A = 10
 					x"01" when x"81",	   -- 0x01 = 1
 					x"0A" when x"82",	   -- 0x0A = 10
 					x"00" when x"83",	   -- 0x00 = 0 (not equal)
